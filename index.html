@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Glaica</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { padding-top: 100px; }
+
+    /* Hero Background */
+    .hero {
+      height: 100vh;
+      background: url("c:\Users\BAJARO\OneDrive\Pictures\Saved Pictures\20240320_172352.jpg") center /cover no-repeat;
+      display: flex;
+      align-items: self-start;
+      color: rgb(158, 68, 68);
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      position: relative;
+      margin: auto;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+    
+    
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0" style="background-color: burlywood;">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="navbar-brand fw-bold" class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="navbar-brand fw-bold" class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="navbar-brand fw-bold" class="nav-link" href="#more">More</a></li>
+          <li class="nav-item"><a class="navbar-brand fw-bold" class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="navbar-brand fw-bold" class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <header class="hero text-white position-relative">
+    
+    <!--Profile Section-->
+    <div class="row gy-4 left">
+        <img src="c:\GLAICA_CODES\Portfolio_Website\Images\Prof. Pic.png" class="img-fluid" alt="glaica">
+    </div>
+<!--End ProfilE Picture-->
+    <div class="hero-overlay">
+    <!-- H1 in center-left -->
+    <h1 class="position-absolute top-50 end-0 translate-middle-y ms-4 display-3 fw-bold text-end">Hi, I'm Glaica Bajaro <p class="lead">
+      A Web and Application Developer</p>
+    </h1>
+
+    <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="container text-center">
+      <h2 class="mb-4"></h2>
+    </div>
+    </div>
+  </section>
+  
+
+  </header>
+   </body>
+
+  <!-- About Section -->
+    <section id="about" class="section">
+    <div class="container text-center">
+      <h2 class="mb-4">About Me</h2>
+      <p class="col-lg-8 mx-auto">I have an experience in Graphic Design, Coding and Programming. I always secure everything and do my work as fast as possible.</p>
+    </div>
+  </section>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-3">
+        <img src="c:\GLAICA_CODES\Portfolio_Website\Images\About me.jpg" class="img-fluid" alt="glaica">
+        <!--profile pic-->
+      </div>
+      <div class="col-lg-8 content">
+        <h2>UI/UX Designer &amp; Application Developer</h2>
+        <p class="navbar-brand fw-bold">
+      My Personal Information
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>BirthDate:</strong> <span>August 17, 2006</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Website:</strong> <span>bajaroglaica@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Phone:</strong> <span>+639123456789</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>City:</strong> <span>Bulan, Sorsogon, Philippines</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Age:</strong> <span>18 years old</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Degree:</strong> <span>Bachelor of Science in Information Technology</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Email:</strong> <span>bajaroglaica@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right" class="navbar-brand fw-bold"></i> <strong>Freelance:</strong> <span>Available</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="py-3">
+            Glaica is a versatile web designer due to her extensive history in graphic and web design. Her dedication to continuously learning about new web design trends and concepts has made her a valuable member of the team. With 3 years of experience and a master's in web design, her expertise can help customers modernize with websites and appeal to expanding customer populations.
+        </p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- More -->
+    <section id="more" class="section">
+    <div class="container text-center">
+      <h2 class="mb-4">More</h2>
+      <p class="col-lg-8 mx-auto">I have an experience in Graphic Design, Coding and Programming. I always secure everything and do my work as fast as possible.</p>
+    </div>
+  </section>
+    <div container>
+
+      <div class="row" style="background-color: burlywood;" class="bi bi-chevron-right" >
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Summary</h3>
+
+          <div class="resume-item pb-0">
+            <p>Innovative and deadline-driven Graphic Designer with 2+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</p>
+            <ul>
+              <li>Global Reciprocal Colleges, Caloocan City, PH</li>
+              <li>+639123456789</li>
+              <li>bajaroglaica@gmail.com</li>
+            </ul>
+          </div>
+          <!-- End Resume Item -->
+          <h5 class="resume-title" class="navbar-brand fw-bold">Educational Background</h5>
+            <div class="resume-item">
+            <li class="navbar-brand fw-bold">Bachelor of Science in Information Technology</li></p>
+            <li class="navbar-brand fw-bold">2024 - 2025</li></p>
+            <li class="navbar-brand fw-bold">Global Reciprocal Colleges</li></p>
+          </div>
+        </div>
+
+    </div>
+
+  </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="c:\GLAICA_CODES\Portfolio_Website\Images\Graphic Design Layout.png" class="card-img-top" alt="Portfolio Project">
+            <div class="card-body">
+              <h5 class="card-title">Photoshop</h5>
+              <p class="card-text">Graphic Design Layout</p>
+              <a href="c:\GLAICA_CODES\Portfolio_Website\Images\Graphic Design Layout.png" class="btn btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="c:\GLAICA_CODES\Portfolio_Website\Images\Calendar 2025 html.png" class="card-img-top" alt="Portfolio Project">
+                <div class="card-body">
+                  <h5 class="card-title">CALENDAR</h5>
+                  <p class="card-text">A Responsive Bootstrap Calendar</p>
+                  <a href="https://glaica.github.io/Calendar2025//" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="c:\GLAICA_CODES\Portfolio_Website\Images\name icon.png" class="card-img-top" alt="Portfolio Project">
+                    <div class="card-body">
+                      <h5 class="card-title">Icon Name</h5>
+                      <p class="card-text">A Creative Name Icon Using Fontawesome</p>
+                      <a href="c:\Users\BAJARO\OneDrive\Documents\GLAICA_CODES\Icon-Name\icon.html" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="c:\GLAICA_CODES\Portfolio_Website\Images\DreamScape.png" class="card-img-top" alt="Portfolio Project">
+                        <div class="card-body">
+                          <h5 class="card-title">Photoshop</h5>
+                          <p class="card-text">DreamScapes Photoshop</p>
+                          <a href="c:\Users\BAJARO\DreamScape.psd" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="col-lg-6 mx-auto">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required />
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message/Feedback" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-4">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-light mt-5">
+    <p class="mb-0">© 2025 Glaica Bajaro . Built with Bootstrap.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
